@@ -7,7 +7,7 @@ function double (something) {
   return something *2;
 }
 
-var car = {
+ var car = {
   make: "toyota",
   model: "sedan",
   mpg: 32,
@@ -15,8 +15,8 @@ var car = {
   color: "red"
 };
 
-var x = new car();
+var x = car;
 
-console.log(x.make`\n`);
-console.log(x.model`\n`);
+console.log(x.make);
+console.log(x.model);
 console.log(double(x.mpg));
